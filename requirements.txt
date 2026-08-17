@@ -16,3 +16,6 @@ seaborn>=0.13
 jupyterlab>=4.0
 notebook>=7.0
 ipykernel>=6.25
+
+# Interactive demo (app.py)
+streamlit>=1.30

@@ -1,0 +1,10 @@
+# Streamlit app configuration (used locally and on Streamlit Community Cloud)
+[theme]
+primaryColor = "#2a9d8f"
+backgroundColor = "#fafafa"
+secondaryBackgroundColor = "#eef4f3"
+textColor = "#1f2937"
+font = "sans serif"
+
+[server]
+headless = true

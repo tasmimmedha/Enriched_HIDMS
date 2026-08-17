@@ -112,6 +112,39 @@ jupyter lab notebooks/
 
 ---
 
+## 🚀 Live Demo (Diabetes-Risk Prediction)
+
+A small, interactive demo ships with the repo: it generates **simulated,
+de-identified** patient records, trains a Random Forest on them, and predicts
+diabetes risk for any set of measurements.
+
+```bash
+# 1. Train the demo model (creates models/demo_diabetes_risk.joblib)
+make train-demo            # or: python scripts/train_demo.py
+
+# 2a. CLI demo — try three example patients
+make demo                  # or: python -m hidms.demo --sample
+
+# 2b. Interactive CLI prompt (enter your own measurements)
+python -m hidms.demo
+
+# 3. Web app (needs streamlit: pip install streamlit)
+make web                   # or: streamlit run app.py
+```
+
+Demo artifacts: `data/raw/demo_health_records.csv` (simulated records),
+`reports/demo_metrics.json` (accuracy / F1 / ROC-AUC),
+`reports/figures/demo_feature_importance.png`.
+
+> ⚠️ **Demo only.** The data is simulated and the model is for
+> demonstration/education — never for real clinical decisions.
+
+Want it live on the web for free? Follow the
+**[zero-to-deploy guide](docs/deployment_guide.md)** — it publishes the app
+on Streamlit Community Cloud in ~15 minutes.
+
+---
+
 ## 🧪 Research & Thesis
 
 - **Thesis outline** → [`docs/thesis_outline.md`](docs/thesis_outline.md)

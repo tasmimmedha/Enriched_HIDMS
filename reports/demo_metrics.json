@@ -1,0 +1,11 @@
+{
+  "dataset": "synthetic (simulated, de-identified)",
+  "n_patients": 2000,
+  "seed": 42,
+  "model": "RandomForestClassifier (n_estimators=200)",
+  "accuracy": 0.7375,
+  "precision": 0.7174843297974928,
+  "recall": 0.7375,
+  "f1": 0.6824799740203507,
+  "roc_auc": 0.6820442410373759
+}
