@@ -1,3 +1,58 @@
+# ---- Local tool state ----
 .freebuff/
+
+# ---- OS junk ----
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Testing / tooling ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Data (uncomment if raw datasets must NOT be committed, e.g. patient data) ----
+# data/raw/*
+# data/interim/*
+# !data/raw/.gitkeep
+# !data/interim/.gitkeep
+
+# ---- Models / checkpoints ----
+# models/*.pkl
+# models/*.joblib
+# models/*.h5
+# models/*.pt
+# models/checkpoints/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+
+# ---- Logs ----
+*.log
