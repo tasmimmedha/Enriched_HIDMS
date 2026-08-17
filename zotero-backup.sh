@@ -19,5 +19,5 @@ fi
 
 msg="${1:-Zotero library backup $(date +%Y-%m-%d_%H-%M)}"
 git commit -m "$msg"
-git push origin main
-echo "Backup pushed to origin/main."
+git push origin research
+echo "Backup pushed to origin/research."
